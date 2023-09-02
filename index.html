@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="tic.css">
+	<script src="tic.js"></script>
+</head>
+
+<body>
+    <div id="res">
+        <canvas id="drawing_canvas"></canvas>
+        <h2 id="resT"></h2>
+    </div>
+    <div class="main">
+        <div class="head"  style="text-align: center;">
+
+            <h2 class="gam">Tic-Tac-Toe</h2>
+            <p id="print">Tap to Start the Game</p>
+        </div>
+        
+		<div class = "ui">
+			<div class="row">
+				<input type="text" id= "b1"
+					class="cell" onclick="myfunc_3(); myfunc();"
+					readonly></input>
+				<input type="text" id= "b2"
+					class="cell" onclick="myfunc_4(); myfunc();"
+					readonly>
+				<input type="text" id= "b3" class="cell"
+					onclick="myfunc_5(); myfunc();"
+					readonly>
+			</div>
+			<div class="row">
+				<input type="text" id= "b4"
+					class="cell" onclick="myfunc_6(); myfunc();"
+					readonly>
+				<input type="text" id= "b5"
+					class="cell" onclick="myfunc_7(); myfunc();"
+					readonly>
+				<input type="text" id= "b6"
+					class="cell" onclick="myfunc_8(); myfunc();"
+					readonly>
+			</div>
+			<div class="row">
+				<input type="text" id= "b7"
+					class="cell" onclick="myfunc_9(); myfunc();"
+					readonly>
+				<input type="text" id= "b8"
+					class="cell" onclick="myfunc_10();myfunc();"
+					readonly>
+				<input type="text" id= "b9"
+					class="cell" onclick="myfunc_11();myfunc();"
+					readonly>
+			</div>
+		</div>
+		
+		<button id="but" onclick="myfunc_2()">
+			Reset
+		</button>
+        <div id="crd">
+            <h4>Developed by <a href="https://www.linkedin.com/in/patchala-john-a62184251/" target="_blank">John.P</a></h4>
+        </div>
+	</div>
+    <script src="conf.js"></script>
+</body>
+
+</html>
